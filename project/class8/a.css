@@ -1,0 +1,64 @@
+.clearfix::after{
+  content:"";
+  display: block;
+  clear: both;
+}
+a{
+  color:inherit;
+  text-decoration: none;
+}
+body{
+  margin: 0;
+  color:white;
+  background-color: black
+}
+.topNavBar > nav > ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.topNavBar > nav > ul > li {
+  float: left;
+}
+.topNavBar > nav > ul > li > a {
+  text-decoration: none;
+  margin-left: 17px;
+  margin-right: 17px;
+  font-size: 14px;
+  font-weight: bold;
+  color:#b7b7b7;
+  padding-bottom: 7px;
+  padding-top: 8px;
+  border-bottom: 3px solid transparent;
+  border-top: 3px solid transparent;
+  display: block;
+}
+.topNavBar > nav > ul > li > a:hover{
+  border-bottom: 3px solid #e06567;
+}
+.topNavBar > nav {
+  float: right;
+}
+.topNavBar .logo{
+  padding-top: 3px;
+  padding-bottom: 4px;
+  float: left;
+}
+.topNavBar > a {
+
+}
+.topNavBar .logo {
+  font-size: 24px;
+  font-family: "Arial Black";
+}
+.topNavBar .logo .rs {
+  color:#E07266;
+  margin-right: 4px;
+}
+.topNavBar .logo .card {
+  color:#9A9DA2;
+}
+.topNavBar{
+  padding: 20px 16px 20px 16px
+}
+
