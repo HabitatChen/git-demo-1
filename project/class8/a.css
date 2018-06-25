@@ -12,15 +12,15 @@ body{
   color:white;
   background-color: black
 }
-.topNavBar > nav > ul {
+.topNavBar  nav > ul {
   list-style: none;
   margin: 0;
   padding: 0;
 }
-.topNavBar > nav > ul > li {
+.topNavBar  nav > ul > li {
   float: left;
 }
-.topNavBar > nav > ul > li > a {
+.topNavBar  nav > ul > li > a {
   text-decoration: none;
   margin-left: 17px;
   margin-right: 17px;
@@ -33,19 +33,16 @@ body{
   border-top: 3px solid transparent;
   display: block;
 }
-.topNavBar > nav > ul > li > a:hover{
+.topNavBar  nav > ul > li > a:hover{
   border-bottom: 3px solid #e06567;
 }
-.topNavBar > nav {
+.topNavBar  nav {
   float: right;
 }
 .topNavBar .logo{
   padding-top: 3px;
   padding-bottom: 4px;
   float: left;
-}
-.topNavBar > a {
-
 }
 .topNavBar .logo {
   font-size: 24px;
@@ -59,6 +56,21 @@ body{
   color:#9A9DA2;
 }
 .topNavBar{
-  padding: 20px 16px 20px 16px
+  position: fixed;
+  padding: 20px 16px 20px 16px;
+  top:0;
+  left:0;
+  width:100%;
+}
+.banner{
+  background-image:url(./img/wallhaven-557342.jpg);
+  height: 515px;
+}
+.banner .mask {
+  height: 515px;
+  background-color: rgba(0, 0, 0, 0.6)
+}
+.topNavBar .topNavBar-inner{
+  padding: 16px;
 }
 

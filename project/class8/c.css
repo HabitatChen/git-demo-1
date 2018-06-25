@@ -1,0 +1,11 @@
+.hezi{
+  border: 1px solid red;
+}
+.hezi2{
+  margin-top: 10px;
+  border: 10px outset green;
+  padding-top:1px;
+}
+.hezi2 p {
+  padding-top:0px;
+}
