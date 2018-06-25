@@ -145,3 +145,25 @@ hr{
 .userCard .media{
   background-color: #e06567;
 }
+.media img {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background-color: transparent;
+  vertical-align: top;
+  
+}
+.media a {
+  display: inline-block;
+  width: 40px;
+  padding: 5px 0;
+  line-height: 30px;
+  border-radius: 50px;
+  margin: 16px;
+}
+.media a:hover{
+  background: #cf5d5f;
+}
+.media {
+  text-align: center;
+}
