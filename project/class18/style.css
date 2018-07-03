@@ -1,0 +1,7 @@
+body{
+    magin:0;
+}
+#canvas{
+    background: red;
+    height: 100vh;
+}
