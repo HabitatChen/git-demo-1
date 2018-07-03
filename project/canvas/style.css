@@ -4,10 +4,6 @@ ul,ol{
 *{margin: 0;padding: 0;}
 #xxx{
     display:block;
-    background: white;
-    position: fixed;
-    top: 0;
-    left: 0;
   }
   
   body{
