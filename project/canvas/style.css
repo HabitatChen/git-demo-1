@@ -1,15 +1,34 @@
+ul,ol{
+  list-style: none;
+}
+*{margin: 0;padding: 0;}
 #xxx{
-    background:green;
     display:block;
+    background: white;
+    position: fixed;
+    top: 0;
+    left: 0;
   }
   
   body{
     margin:0px;
+    overflow: hidden;
   }
   .actions{
     position:fixed;
-    bottom:0;
+    top:0;
     left:0;
+    padding: 20px;
+  }
+  .actions svg{
+    width: 1.5em;
+    height: 1.5em;
+    transition: all 0.3s;
+    margin: 0 5px; 
+  }
+  .actions svg.active{
+    fill:red;
+    transform: scale(1.2);
   }
   .actions > #brush {
     display: none;
@@ -19,4 +38,54 @@
   }
   .actions.x > #xp {
     display: none;
+  }
+  .colors{
+    position: fixed;
+    top: 50px;
+    left: 21px;
+  }
+  .colors li{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    box-shadow: 0 0 3px rgba(0,0,0,0.25);
+    margin: 10px 0 ;
+  }
+  .colors > li.red{
+    background-color: red;
+  }
+  .colors > li.green{
+    background-color:green;
+  }
+  .colors > li.blue{
+    background-color: blue;
+  }
+  .colors > li.active{
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.95);
+    transform: scale(1.2);
+    transition: All 0.3s;
+  }
+  .sizes{
+    position:fixed;
+    right: 10px;
+    top:45px;
+  }
+  .sizes li{
+    margin: 20px 15px;
+
+  }
+  .sizes #thin{
+    height: 0;
+    width: 20px;
+    border-top: 3px solid black;
+  }
+  .sizes #bold{
+    height: 0;
+    width: 20px;
+    border-top: 6px solid black;
+  }
+  #clear{
+    position: fixed;
+    right: 19px;
+    top: 20px;
   }
