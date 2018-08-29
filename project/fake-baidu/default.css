@@ -1,0 +1,89 @@
+*{margin:0;padding:0}
+*{box-sizing:border-box}
+ul,ol{list-style:none}
+*::before,*after{
+box-sizing:border-box
+}
+body{
+border:1px solid red;
+min-height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+}
+.wraper{
+	display:flex;
+	position:relative;
+}
+.suggestion{
+	position:absolute;
+	top:100%;
+	left:0;
+	display:none;
+}
+.suggestion.active{
+	display:block;
+}
+.floatButoon{
+	position:absolute;
+	top:0;
+	right:0;
+	height:100%;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	margin-right:10px;
+}
+.inputWraper{
+	position:relative;
+	display:inline-block;
+	float:left;
+}
+.inputWraper input[type=text]{
+	border:1px solid #B3B3B3;
+	width:540px;
+	height:35px;  
+	padding-left:8px;
+	font-size:15px;
+	line-height:35px;
+}
+.inputWraper input[type=text]:focus{
+	outline:none;
+	border-color:#3388FF;
+
+}
+#baidu{
+	float:left;
+	background:#3287FF;
+	border:none;
+	font-size:16px;
+	padding:0 20px;
+	color:white;
+}
+#baidu:focus{
+	outline:none;
+}
+#baidu:hover{
+	cursor: pointer;
+	background:#337FF3;
+	box-shadow:1px 1px 1px 0 rgba(0,0,0,0.2)
+}
+.inputWraper svg.icon{
+	width: 1em; height: 1em;
+	vertical-align: -0.15em;
+	fill: currentColor;
+	overflow: hidden;
+	width:20px;
+	height:20px;
+	fill:#B3B3B3;
+}
+.inputWraper svg.icon:hover{
+	fill:#3388FF;
+	cursor: pointer;
+}
+.inputWraper span.splitLine{
+	width:0;
+	height:17px;
+	border-left:1px solid #B3B3B3;
+	margin:0 10px;
+}
